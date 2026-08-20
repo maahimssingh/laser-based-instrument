@@ -1,0 +1,50 @@
+# Laser-Based Musical Instrument
+
+A touchless musical instrument that uses **laser beams and light sensors** to detect hand movements and generate musical notes.
+
+## Features
+
+* 🎵 Touchless gesture-based music interaction
+* 🎹 Polyphonic sound generation
+* ⚡ ESP32-based embedded system
+* 🔦 Laser and light-sensor based note detection
+* 🔄 Debouncing for reliable input detection
+* 🎛️ Modular and customizable note mapping
+* 🧵 FreeRTOS-based task handling for inputs and audio
+
+## Hardware
+
+* ESP32
+* Laser modules
+* Light sensors
+* Speaker/audio output
+* Supporting electronic components
+
+## Software
+
+* Embedded C/C++
+* ESP32
+* FreeRTOS
+* Mozzi Audio Library
+* PlatformIO / Arduino
+
+## Working
+
+Each laser beam corresponds to a musical note. When a user interrupts a beam with their hand, the corresponding sensor detects the change in light intensity. The ESP32 processes the input and generates the associated note, allowing multiple beams to be interrupted simultaneously for polyphonic music.
+
+## Status
+
+🚧 **Working Prototype**
+
+The project has been developed and tested as a functional prototype. A patent application has also been filed for the innovation.
+
+## Future Scope
+
+* MIDI integration
+* Improved audio synthesis
+* Wireless connectivity
+* Additional notes and scales
+* Compact and portable enclosure
+* Applications in music education and interactive performances
+
+
